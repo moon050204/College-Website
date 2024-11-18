@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <p class="title">
+        St. Mary's College of 
+    <br>
+    Baliuag inc.
+    </p>
+    <!--Navigation bar-->
+    <img src="images/SCHOOL LOGO NO BG.png" class="School-logo" alt="SMCB LOGO">
+    <nav>
+        <ul class="sidebar"> <!--phone and tablets side bar-->
+             <!--For side bar icon-->
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            
+            <li><a href="Home.html" target="_self">Home</a></li>
+            <li><a href="About.html" target="_self">About</a></li>
+            <li><a href="Admissions.html" target="_self">Admissions</a></li>
+            <li><a href="Campus Life.html">Campus Life</a></li>
+            <li><a href="Bulletin.html">Bulletin</a></li>
+            
+        </ul>
+        <ul> <!--Desktop laptop header coding-->
+            <li class="hideOnMobile"><a href="Home.html" target="_self">Home</a></li>
+            <li class="hideOnMobile"><a href="About.html" target="_self">About</a></li>
+            <li class="hideOnMobile"><a href="Admissions.html" target="_self">Admissions</a></li>
+            <li class="hideOnMobile"><a href="Campus Life.html">Campus Life</a></li>
+            <li class="hideOnMobile"><a href="Bulletin.html">Bulletin</a></li>   
+
+            <!--For side bar icon-->
+            <li class="menu-botton" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+        </ul>
+    </nav>
+    
+    <!--Js-->
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    
+    <div class="gallery-container">
+        <div class="gallery-heading">
+            <h3 class="gallery-h3">Campus <span>Gallery</span></h3>
+        </div>
+        <div class="gallery-box">
+
+            <div class="gallery-dream">
+                <img class="campus-img" src="Event/event 1.png" alt="">
+                <img class="campus-img" src="Event/Event 2.png" alt="">
+                <img class="campus-img" src="Event/event 3.png" alt="">
+                <img class="campus-img" src="Event/event 4.png" alt="">
+                <img class="campus-img" src="Event/event 5.png" alt="">
+                <img class="campus-img" src="Event/event 6.png" alt="">
+                <img class="campus-img" src="Event/event 7.png" alt="">
+                <img class="campus-img" src="Event/event 8.png" alt="">
+                <img class="campus-img" src="Event/event 9.png" alt="">
+            </div>
+
+            <div class="gallery-dream">
+                <img class="campus-img" src="Event/event 10.png" alt="">
+                <img class="campus-img" src="Event/event 11.png" alt="">
+                <img class="campus-img" src="Event/event 12.png" alt="">
+                <img class="campus-img" src="Event/event 13.png" alt="">
+                <img class="campus-img" src="Event/event 14.png" alt="">
+                <img class="campus-img" src="Event/event 15.png" alt="">
+                <img class="campus-img" src="Event/event 16.png" alt="">
+                <img class="campus-img" src="Event/event 17.png" alt="">
+            </div>
+
+            <div class="gallery-dream">
+                <img class="campus-img" src="Event/event 18.png" alt="">
+                <img class="campus-img" src="Event/event 19.png" alt="">
+                <img class="campus-img" src="Event/event 20.png" alt="">
+                <img class="campus-img" src="Event/event 21.png" alt="">
+                <img class="campus-img" src="Event/event 22.png" alt="">
+                <img class="campus-img" src="Event/event 23.png" alt="">
+                <img class="campus-img" src="Event/event 24.png" alt="">
+                <img class="campus-img" src="Event/event 25.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="FAQbg">
+    <div class="titles">
+        <h5>Testimonials from the Students</h5>
+    </div>
+ <div class="animation"> 
+<div class="bsn-three">
+    <img src="images/Testimonial 1.png" alt="">
+    <img src="images/Testimonial 2.png" alt="">
+    <img src="images/Testimonial 3.png" alt="">
+    <img src="images/Testimonial 4.png" alt="">
+    <img src="images/Testimonial 5.png" alt="">
+    <img src="images/Testimonial 6.png" alt="">
+    <img src="images/Testimonial 7.png" alt="">
+    <img src="images/Testimonial 8.png" alt="">
+    <img src="images/Testimonial 9.png" alt="">
+    <img src="images/Testimonial 10.png" alt="">
+    <img src="images/Testimonial 11.png" alt="">
+    <img src="images/Testimonial 12.png" alt="">
+    <img src="images/Testimonial 13.png" alt="">
+    <img src="images/Testimonial 14.png" alt="">
+    <img src="images/Testimonial 15.png" alt="">
+</div>
+
+</div>
+</div>
+   
+<footer class="footer-container">
+    <div class="footer-left">
+      <h1>St. Mary's College of Baliuag Inc.</h1>
+      <p><em>#YouKnowTheDifference</em></p>
+  
+      <div class="pascu-iso-container">
+        <div class="pascu">
+          <img src="images/paascu.png" alt="PAASCU Logo" class="logo" />
+          <p>PAASCU LEVEL III</p>
+        </div>
+  
+        <div class="iso-container">
+          <img src="images/iso.png" alt="ISO Logo" class="logo" />
+          <p>ISO 9001:2015 Certified <br /> Certificate No. 01-100-153470</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-right">
+      <h3>Contact Us</h3>
+      <div class="contact-item">
+        <i class="fa-solid fa-phone fa-xl"></i>
+        <span>(044)-764-6068</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope fa-xl"></i>
+        <span>smc_baliuag@yahoo.com</span>
+      </div>
+  
+      <div class="social-media">
+        <a href="https://www.facebook.com/SMCBaliuag" target="_blank" class="icon">
+          <i class="fa-brands fa-facebook fa-xl"></i>
+        </a>
+        <a href="https://www.youtube.com/@StMarysCollegeofBaliuag" target="_blank" class="icon">
+          <i class="fa-brands fa-youtube fa-xl"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="copyright">
+      <p>&copy; 2024 All Rights Reserved. BSIT3</p>
+    </div>
+  </footer>
+
+</body>
+</html>
